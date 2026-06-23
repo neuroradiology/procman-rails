@@ -1,20 +1,20 @@
-# proctui
+# Procman
 
-A terminal user interface (TUI) for managing Procfile-based applications. `proctui` allows you to monitor, search, and interact with multiple processes simultaneously in a single dashboard.
+A terminal user interface (TUI) for managing Procfile-based applications. `procman` allows you to monitor, search, and interact with multiple processes simultaneously in a single dashboard.
 
 ## Captures
 
 ### Grid
 
-![proctui grid mode](docs/images/grid.png)
+![procman grid mode](docs/images/grid.png)
 
 ### Fullscreen
 
-![proctui fullscreen process](docs/images/fullscreen.png)
+![procman fullscreen process](docs/images/fullscreen.png)
 
 ### Interactive
 
-![proctui interactive mode](docs/images/interactive.png)
+![procman interactive mode](docs/images/interactive.png)
 
 ## Features
 
@@ -29,10 +29,10 @@ A terminal user interface (TUI) for managing Procfile-based applications. `proct
 
 ## Installation
 
-For now, you can install `proctui` via [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html):
+For now, you can install `procman` via [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html):
 
 ```bash
-cargo install proctui
+cargo install procman
 ```
 
 (Releases and pre-compiled executables coming soon.)
@@ -40,21 +40,21 @@ cargo install proctui
 ## Quick Start
 
 1. Ensure you have a `Procfile` in your project root.
-2. Run `proctui`:
+2. Run `procman`:
 
    ```bash
-   proctui
+   procman
    ```
 
    Or specify a custom path to your `Procfile`:
 
    ```bash
-   proctui ./path/to/my/Procfile
+   procman ./path/to/my/Procfile
    ```
 
 ## Usage
 
-`proctui` is designed to be intuitive and fast. Inspired by tools like `btop`, you can perform actions by simply pressing the **bolded** letter displayed in each label on the screen.
+`procman` is designed to be intuitive and fast. Inspired by tools like `btop`, you can perform actions by simply pressing the **bolded** letter displayed in each label on the screen.
 
 - **i**nteractive: Enter interactive mode to talk to the process (e.g., a debugger). Press `Ctrl-A` to exit.
 - **f**ullscreen / **Enter**: Expand the selected process to fill the screen.
@@ -63,7 +63,7 @@ cargo install proctui
 - star**t**: Start a stopped process.
 - **s**top: Terminate a running process.
 - r**e**start: Quickly stop and start the process.
-- **q** / **Ctrl-C**: Exit `proctui`.
+- **q** / **Ctrl-C**: Exit `procman`.
 
 Navigation is handled via **arrow keys** or **hjkl**. You can also jump directly to a process by pressing its corresponding number **1-9**.
 

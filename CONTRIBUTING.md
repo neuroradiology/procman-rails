@@ -1,6 +1,6 @@
-# Contributing to proctui
+# Contributing to procman
 
-Thank you for wanting to contribute to **proctui**! Whether you are fixing a bug, adding a feature, or improving documentation, your help is appreciated.
+Thank you for wanting to contribute to **procman**! Whether you are fixing a bug, adding a feature, or improving documentation, your help is appreciated.
 
 ## How to Contribute
 
@@ -33,7 +33,7 @@ Since this is a Rust project, please follow these steps before submitting:
 
 ## License
 
-By contributing to proctui, you agree that your contributions will be licensed under the GNU General Public License v3.0 (GPL-3.0) found in the LICENSE file.
+By contributing to procman, you agree that your contributions will be licensed under the GNU General Public License v3.0 (GPL-3.0) found in the LICENSE file.
 
 Your contributions become part of the project and must remain open source under GPL-3.0 if distributed.
 

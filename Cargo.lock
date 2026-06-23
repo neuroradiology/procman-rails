@@ -1168,7 +1168,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "proctui"
+name = "proc-man"
 version = "0.0.1"
 dependencies = [
  "ansi-to-tui",

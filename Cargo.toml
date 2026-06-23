@@ -1,5 +1,5 @@
 [package]
-name = "proctui"
+name = "proc-man"
 version = "0.0.1"
 description = "Simple tool for Manage Procfile-based applications"
 authors = ["a-chacon <andres.ch@protonmail.com>"]
@@ -7,7 +7,11 @@ license = "GPL-3.0"
 edition = "2024"
 keywords = ["procfile", "heroku", "cli", "tui"]
 categories = ["command-line-utilities"]
-repository = "https://github.com/a-chacon/proctui"
+repository = "https://github.com/a-chacon/procman"
+
+[[bin]]
+name = "procman"
+path = "src/main.rs"
 
 [dependencies]
 crossterm = { version = "0.28.1", features = ["event-stream"] }
