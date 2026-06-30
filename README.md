@@ -68,8 +68,6 @@ To use `procman` as a drop-in replacement for Foreman in your Rails application,
 if ! command -v procman >/dev/null 2>&1; then
   echo "procman not found. Installing..."
   curl --proto '=https' --tlsv1.2 -LsSf https://github.com/a-chacon/procman/releases/latest/download/proc-man-installer.sh | sh
-  
-  # Refresh shell path if needed (depending on shell and install location)
 fi
 
 # Default to port 3000 if not specified
